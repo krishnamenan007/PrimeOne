@@ -75,7 +75,7 @@ const Footer = () => {
               <p className="mb-0 f_400">© cakecounter Inc.. 2024 All rights reserved.</p>
             </div>
             <div className="col-lg-6 col-sm-5 text-right">
-              <p style={{color:"#fa491c"}}>Designed by <i className="icon_heart"></i> Development team from <a href="https://www.primeone.global/" target="_blank"> <PrimeOneLogo style={{ width: '80px', height: '50px' }} /></a></p>
+              <p style={{color:"#fa491c"}}>Designed by Development team from <a href="https://www.primeone.global/" target="_blank"> <PrimeOneLogo style={{ width: '80px', height: '50px' }} alt ="PrimeONE Global"/></a></p>
             </div>
           </div>
         </div>
