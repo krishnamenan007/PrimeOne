@@ -1,5 +1,8 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Footer from "./Components/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -28,7 +31,7 @@ function App() {
 	<div class="pie-pick">
 		<h2><span>Pick a pie.</span></h2>
 		<div class="snoreo">
-			<img src="http://www.lulubellescakes.com/wp-content/uploads/2015/12/Oreo-topping.png" style={{width: "95%"}}/>
+			<img src="http://harvestbakery.com/wp-content/uploads/2016/04/VanillaSprinklesCupCake_clipped_rev_1.png" style={{width: "90%"}}/>
 			<div class="text">
 				<h3>Snowreo</h3>
 				<p>Evading the dreaded pangs of hunger, a group of cupcake enthusiasts has discovered this new secret delicacy in the remote chocolate-filled world of Oreo.</p>
@@ -76,6 +79,7 @@ function App() {
 			<button type="submit"><span>Send</span></button>
 		</form>
 </section>
+<Footer/>
   </div>
   );
 }
